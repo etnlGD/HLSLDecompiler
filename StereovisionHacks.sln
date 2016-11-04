@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryDecompiler", "BinaryDecompiler\BinaryDecompiler.vcxproj", "{258D0AD2-B762-41E3-A0C1-CF831D859DA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D_Shaders", "D3D_Shaders\D3D_Shaders.vcxproj", "{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cmd_Decompiler", "HLSLDecompiler\cmd_Decompiler\cmd_Decompiler.vcxproj", "{25E1F732-DCF5-428E-928D-D39C499CC95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Zip Release|Win32 = Zip Release|Win32
+		Zip Release|x64 = Zip Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Debug|Win32.Build.0 = Debug|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Debug|x64.ActiveCfg = Debug|x64
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Debug|x64.Build.0 = Debug|x64
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Release|Win32.ActiveCfg = Release|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Release|Win32.Build.0 = Release|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Release|x64.ActiveCfg = Release|x64
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Release|x64.Build.0 = Release|x64
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Zip Release|Win32.ActiveCfg = Zip Release|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Zip Release|Win32.Build.0 = Zip Release|Win32
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Zip Release|x64.ActiveCfg = Zip Release|x64
+		{258D0AD2-B762-41E3-A0C1-CF831D859DA4}.Zip Release|x64.Build.0 = Zip Release|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Debug|Win32.Build.0 = Debug|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Debug|x64.ActiveCfg = Debug|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Debug|x64.Build.0 = Debug|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Release|Win32.ActiveCfg = Release|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Release|Win32.Build.0 = Release|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Release|x64.ActiveCfg = Release|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Release|x64.Build.0 = Release|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Zip Release|Win32.ActiveCfg = Release|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Zip Release|Win32.Build.0 = Release|Win32
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Zip Release|x64.ActiveCfg = Release|x64
+		{59A9B0C6-8302-48A9-96E0-126FB32FB9ED}.Zip Release|x64.Build.0 = Release|x64
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Debug|x64.ActiveCfg = Debug|x64
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Release|Win32.ActiveCfg = Release|Win32
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Release|x64.ActiveCfg = Release|x64
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Zip Release|Win32.ActiveCfg = Zip Release|Win32
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Zip Release|Win32.Build.0 = Zip Release|Win32
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Zip Release|x64.ActiveCfg = Zip Release|x64
+		{25E1F732-DCF5-428E-928D-D39C499CC95F}.Zip Release|x64.Build.0 = Zip Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
