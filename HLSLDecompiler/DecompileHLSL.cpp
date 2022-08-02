@@ -3042,6 +3042,9 @@ public:
 			else if (!strcmp(statement, "dcl_constantbuffer"))
 			{
 				char *strPos = strstr(op1, "cb");
+				if (!strPos) // sometimes the disassembler puts uppercase
+					strPos = strstr(op1, "CB");
+
 				if (strPos)
 				{
 					int bufIndex = 0;
@@ -3068,7 +3071,8 @@ public:
 					// and create the fake cb2 style names as the best we can do.  
 					// Not sure this will work in all cases, because the offsets into the buffer are
 					// not required to be zero for the first element, but we have no other info here.
-					if (mCBufferNames.empty())
+					// There will still always be a single cbuffer in here, since it is made in ParseBufferDefinitions.
+					if (mCBufferNames.size() <= 1)
 					{
 						BufferEntry e;
 						e.bt = DT_float4;
