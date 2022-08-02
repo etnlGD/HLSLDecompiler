@@ -1,6 +1,7 @@
 #ifndef HLSLCC_H_
 #define HLSLCC_H_
 
+#include <string>
 #include <vector>
 #include <map>
 
